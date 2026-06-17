@@ -11,6 +11,9 @@ add_executable(
     src/utils.c
     src/bitboard.c
     src/fen.c
+    src/rook.c
+    src/bishop.c
+    src/queen.c
 )
 target_include_directories(
     ChessEngine PRIVATE include
